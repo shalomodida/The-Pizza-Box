@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THE-PIZZA</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" type="images/jpg" href="images/pizza.jpg">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div id="order">
+            
+            <a href="index.html"><button type="submit" form="form1" value="Submit" id="btn2"> <i class="fa fa-home"
+                        aria-hidden="true"></i>&nbsp; HOME </button></a>
+                        <br>
+
+            <a href="index.html"><button type="submit" form="form1" value="Submit" id="btn2"> <i class="fa fa-home"
+                aria-hidden="true"></i>&nbsp; CONTACT </button></a>
+
+            <h1>WELCOME TO A SLICE OF HEAVEN</h1>
+        </div>
+        <h3>MAKE YOUR ORDER HERE </h3>
+        <br><br>
+        <div class="row" id="piz">
+
+            <div class="col-md-4">
+                <h4>CRUSTS</h4>
+                <img src="/home/shalom/Desktop/The-Pizza/images/dilyara-garifullina-ftrv8LiVZso-unsplash.jpg" height="300px" width="300px">
+               
+
+                </button>
+            </div>
+            <div class="col-md-4">
+                <h4>TOPPINGS</h4>
+                <img src="/home/shalom/Desktop/The-Pizza/images/rebecca-matthews-qMPHPivB_78-unsplash.jpg" height="300px" width="300px">
+            
+            </div>
+            <div class="col-md-4">
+                <h4>SPECIAL OFFER PACKAGE</h4>
+                <img src="https://bit.ly/2T23oxc" height="300px" width="300px">
+             
+            </div>
+            <div class="container">
+                <div id="form">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-3">
+
+                                <label for="size" style="color:orange">Size</label>
+                                <select class="browser-default custom-select" id="size">
+                                    <option value="">Choose option</option>
+                                    <option value="2000">Large =ksh 2000</option>
+                                    <option value="1500">Medium =ksh 1500</option>
+                                    <option value="1000">Small= ksh1000</option>
+                                </select><br>
+                            </div>
+                            <div class="col-md-3">
+
+                                <label for="crust" style="color:orange">Crust</label>
+                                <select class="browser-default custom-select" id="crust">
+                                    <option value="">Choose option</option>
+                                    <option value="200">Crispy =ksh 200</option>
+                                    <option value="150">Stuffed=ksh 150</option>
+                                    <option value="100">Gluten-free =ksh 100</option>
+                                </select><br>
+                            </div>
+                            <div class="col-md-3">
+
+                                <label for="toppings" name="toppings" style="color:orange">Toppings</label>
+                                <select class="browser-default custom-select" id="toppings">
+                                    <option value="">Choose option</option>
+                                    <option value="100">Cheese =ksh100</option>
+                                    <option value="120">pepperoni =ksh120</option>
+                                    <option value="80">onions =ksh80</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+
+                                <label for="quantity" style="color: orange">Quantity</label>
+                                <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                                    min="0">
+                            </div><br><br><br><br><br><br>
+                            <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                                onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
