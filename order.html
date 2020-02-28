@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div>
 
         <div id="order">
             
@@ -52,21 +52,12 @@
                 <div id="form">
                     <form>
                         <div class="row">
-                            <div class="col-md-3">
-
-                                <label for="size" style="color:orange">Size</label>
-                                <select class="browser-default custom-select" id="size">
-                                    <option value="">Choose option</option>
-                                    <option value="2000">Large =ksh 2000</option>
-                                    <option value="1500">Medium =ksh 1500</option>
-                                    <option value="1000">Small= ksh1000</option>
-                                </select><br>
-                            </div>
+                     
                             <div class="col-md-3">
 
                                 <label for="crust" style="color:orange">Crust</label>
                                 <select class="browser-default custom-select" id="crust">
-                                    <option value="">Choose option</option>
+                                    <option value="">Choose Your Crust</option>
                                     <option value="200">Crispy =ksh 200</option>
                                     <option value="150">Stuffed=ksh 150</option>
                                     <option value="100">Gluten-free =ksh 100</option>
@@ -76,7 +67,7 @@
 
                                 <label for="toppings" name="toppings" style="color:orange">Toppings</label>
                                 <select class="browser-default custom-select" id="toppings">
-                                    <option value="">Choose option</option>
+                                    <option value=""> Choose Your toppings</option>
                                     <option value="100">Cheese =ksh100</option>
                                     <option value="120">pepperoni =ksh120</option>
                                     <option value="80">onions =ksh80</option>
@@ -84,8 +75,19 @@
                             </div>
                             <div class="col-md-3">
 
-                                <label for="quantity" style="color: orange">Quantity</label>
-                                <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                                <label for="size" style="color:orange">Size</label>
+                                <select class="browser-default custom-select" id="size">
+                                    <option value="">Choose The Size</option>
+                                    <option value="large">Large =ksh 2000</option>
+                                    <option value="medium">Medium =ksh 1500</option>
+                                    <option value="small">Small= ksh1000</option>
+                                </select><br>
+                            </div>
+                           
+                            <div class="col-md-3">
+
+                                <label for=" pieces" style="color: orange">Pieces</label>
+                                <input class="form-control" type="text" name="pizza" id="pieces" placeholder="0" max=""
                                     min="0">
                             </div><br><br><br><br><br><br>
                             <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
