@@ -87,7 +87,7 @@
     background-size: cover;
     height: 60vh;
     width: 100%;
-    background-image: url("/home/shalom/Desktop/The-Pizza/images/giwrgos-louvaris-UFmL4j0Sr3w-unsplash.jpg");
+    background-image: url("home/shalom/Desktop/The-Pizza/images/giwrgos-louvaris-UFmL4j0Sr3w-unsplash.jpg");
     
 
 }
@@ -136,7 +136,7 @@ h4{
     font-weight: bolder; */
     
     
-} */
+
 
 #form{
     margin-left: 20%;
