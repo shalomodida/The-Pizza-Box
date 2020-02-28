@@ -25,7 +25,7 @@ function getPieces() {
 function getTotalAmount() {
     let pizzaSize = getSizeValue();
     var totalAmount = (pizzaSize.price + getCrust() + getToppings()) * getPieces();
-    alert("We have received your order of " + getPieces() + ' ' + pizzaSize.size +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
+    alert("We have received your order of " + getPieces() + ' ' + pizzaSize.size +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again." + "please press ok to add your location.");
     prompt("Please enter your location")
     alert("Delivery fee is 200/=")
     alert("Your order will be delivered shortly")
